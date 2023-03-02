@@ -3,10 +3,10 @@ CREATE DATABASE comp_1006;
 USE comp_1006;
 CREATE TABLE IF NOT EXISTS `collectables` (
   `id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  `name` VARCHAR(50) NOT NULL, #-- ie: amazon-->
-  `description` VARCHAR(50) NOT NULL, #-- ie: online shopping, CEO quit, twitter sentiment down --
-  `value` VARCHAR(20) NOT NULL, #-- ie: $1000 --
-  `image` VARCHAR(200) NOT NULL)  #-ie. data entry time --
+  `name` VARCHAR(50) NOT NULL, 
+  `description` VARCHAR(50) NOT NULL, 
+  `value` VARCHAR(20) NOT NULL,
+  `image` VARCHAR(200) NOT NULL) 
 ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 #Sample entries
