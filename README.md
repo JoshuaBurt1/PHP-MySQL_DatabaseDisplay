@@ -4,6 +4,7 @@
 2.	Run MySQL Workbench
 -run "collectables" sql code in MySQL to create the database
 -copy into php code: 1.name of SQL instance & database name ie. "localhost:3308/insertDatabaseName"; 2. user ie. "root"; 3. password ie. "";
+
 #WAMP
 1. Download a test server ie. WampServer https://sourceforge.net/projects/wampserver/
 2. Run WampServer
